@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: arik-component
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/achernet-tenant/go-basic-app-test-arik/arik-component@sha256:4f7d28aae6b9a1d16ceb6da7cdb9a645274569032e00e3378d3b3ba83551529c
+        name: my-go
+        resources: {}
+status: {}
