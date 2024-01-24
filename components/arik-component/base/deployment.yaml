@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: arik-component
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-user-workloads/achernet-tenant/go-basic-app-test-arik/arik-component@sha256:4f7d28aae6b9a1d16ceb6da7cdb9a645274569032e00e3378d3b3ba83551529c
         name: my-go
         ports:
         - containerPort: 8081
