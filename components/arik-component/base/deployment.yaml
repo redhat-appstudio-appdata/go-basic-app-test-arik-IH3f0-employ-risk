@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: go-basic-app-test-arik
   name: arik-component
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
